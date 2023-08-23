@@ -1,8 +1,13 @@
-# React + Vite
+# Tarea 1, primera semana react.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Lógica de desarrollo:
 
-Currently, two official plugins are available:
+1) Se almacenan todos los datos en un objeto con múltiples niveles de anidación.
+2) Se configura una sola Card y con renderizado condicional se determina cual será su contenido.
+3) Se asignan clases en css siguiendo el patrón: 'bloque al que pertenece_elemento_modificador/funcion que cumple"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Elementos a mejorar.
+
+1) ESlint advierte que los props carecen de validación. (_'prop' Is missing in props validation._)
+2) Comprender si hay una manera más óptima y con menos código para producir el mismo resultado.
+3) Hacer más conciso el uso de la metodología BEM.
