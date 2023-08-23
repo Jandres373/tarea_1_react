@@ -11,7 +11,7 @@ const Card = ({ index, data }) => {
         <h1>{index === 0 ? " " : Object.keys(data)[index]}</h1>
         <p>
           {" "}
-          <strong>{index === 0 && Object.keys(data)[0] + ":"}</strong>{" "}
+          <strong>{index === 0 && Object.keys(data.persona)[0] + ":"}</strong>{" "}
           {(index === 0 && data.persona.nombre) ||
             (index === 1 && data.hobbies[0]) ||
             (index === 2 && data.comida_favorita[0]) ||
@@ -19,7 +19,7 @@ const Card = ({ index, data }) => {
         </p>
         <p>
           {" "}
-          <strong>{index === 0 && Object.keys(data)[1] + ":"}</strong>{" "}
+          <strong>{index === 0 && Object.keys(data.persona)[1] + ":"}</strong>{" "}
           {(index === 0 && data.persona.edad) ||
             (index === 1 && data.hobbies[1]) ||
             (index === 2 && data.comida_favorita[1]) ||
@@ -27,7 +27,7 @@ const Card = ({ index, data }) => {
         </p>
         <p>
           {" "}
-          <strong>{index === 0 && Object.keys(data)[2] + ":"}</strong>{" "}
+          <strong>{index === 0 && Object.keys(data.persona)[2] + ":"}</strong>{" "}
           {(index === 0 && data.persona.pelicula_favorita) ||
             (index === 1 && data.hobbies[2]) ||
             (index === 2 && data.comida_favorita[2]) ||
@@ -35,7 +35,7 @@ const Card = ({ index, data }) => {
         </p>
         <p>
           {" "}
-          <strong>{index === 0 && Object.keys(data)[3] + ":"}</strong>{" "}
+          <strong>{index === 0 && Object.keys(data.persona)[3] + ":"}</strong>{" "}
           {(index === 0 && data.persona.musica_favorita) ||
             (index === 1 && data.hobbies[3]) ||
             (index === 2 && data.comida_favorita[3]) ||
