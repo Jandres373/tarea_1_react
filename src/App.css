@@ -1,0 +1,15 @@
+
+.general_container {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  box-sizing: border-box;
+  /* display: grid;
+  place-items: center ;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+  justify-content: center;
+  
+}
